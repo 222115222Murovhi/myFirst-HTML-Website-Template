@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My first web page</title>
+        <meta charset="UTF-8">
+        <meta name="descriptiona" content="My Gym App">
+        <meta name="viewport" content="width=device-width, initial-Scale=1">
+        
+
+    </head>
+    <body>
+        <h1>Premier Gym App</h1>
+        <figure>
+        <img id="logo" src="https://media.istockphoto.com/id/1197037605/vector/fitness-center-gym-illustration.jpg?s=612x612&w=0&k=20&c=YBBUB8mYioZMxSVSmQBPZ0aj2T0m52iIPBVm-QuQjGc="  alt="Gym logo">
+        <figcaption>The gym logo</figcaption>
+        </figure>
+        <p>Welcome to our premier gym website, where fitness meets excellence and transformation begins. At Premier Gym, we believe that fitness is not just a goal; it's a lifestyle. With our state-of-the-art facilities, expert trainers, and a supportive community, we are here to empower you on your fitness journey. Whether you're a seasoned athlete or a beginner taking your first steps towards a healthier lifestyle, our gym is the perfect place for you.</p><br>
+        <p>The Premier Gym is divided into 5 sections.</p>
+        <h2>Sections of the gym:</h2>
+        <ol>
+            <li>Cardio section</li>
+            <img id="cardioSection" width="300" src="https://cdn.mos.cms.futurecdn.net/5QV4TcUWvsfYmm9hAdWXHD.jpg">
+            <li>Weight lifting section</li>
+            <img id="weightsection" width="300" src="https://housing.com/news/wp-content/uploads/2022/11/GYM-INTERIORS-FEATURE-compressed.jpg" alt="weight lifting">
+            <li>Group training section</li>
+            <img id="grouptraining" width="300" src="https://pafitness.net/wp-content/uploads/2022/10/slide-3-1024x682.jpg" alt="group training section">
+            <p>for more Premier Gym photos click <a href="https://www.google.com/search?q=gym+group+training+room&tbm=isch&ved=2ahUKEwiot6XQstf_AhWjticCHewzC7YQ2-cCegQIABAA&oq=gym+group+training+room&gs_lcp=CgNpbWcQAzoECCMQJzoECAAQHjoHCAAQGBCABFDtCViXHWD-IGgAcAB4AIABhwWIAcYqkgEHMy0yLjQuNZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=7YOUZOiMCaPtnsEP7OessAs&bih=961&biw=1920&hl=en#imgrc=_hVnFTHXLzGG5M&imgdii=hLIq8bkfLMM6nM">here</a></p>
+            <li>Locker rooms</li>
+            <li>Shower section</li>
+        </ol>
+        <h2> Working Hours:</h2>
+        <ul>
+            <li>Normal days:</li>
+            <ul>
+                <li>Mon-Thur:05h00-20h00</li>
+                <li>friday:05h00-21h00</li>
+                <li>Saturday:04h00-21h00</li>
+                <li>Sunday:04h00-21h00</li>
+            </ul>
+            <li>Public holidays</li>
+            <ul>
+                <li>Mon-Fri:04h00-22h00</li>
+                <li>Sat-Sun:04h00-21h00</li>
+            </ul>
+        </ul>
+        <h2>Contact Information</h2>
+        <ul>
+            <li>phone no:0714699506</li>
+            <li>email: PremierGym@gmail.com</li>
+            <li>facebook: <a href="https://web.facebook.com/?_rdc=1&_rdr">PremierGym</a></li>
+            <li>Instagram: <a href="https://www.instagram.com/accounts/login/">Premier_Gym</a></li>
+        </ul>
+        <section>
+            <h2>Premier Gym Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal info</legend>
+                    <label for="fName">First Name:</label><br>
+                    <input type="text" id="fName" name="fName" placeholder="Enter First Name..."><br>
+                    <label for="lName">Last Name:</label><br>
+                    <input type="text" id="lName" name="lName" placeholder="Enter last name..."><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter email..."><br>
+                    <label for="bdate">Birth date:</label>
+                    <input type="date" id="bdate" name="bdate">
+                </fieldset>
+                <fieldset>
+                    <legend>What time do you exercize?</legend>
+                    <input type="radio" id="morning" name="extime" checked>
+                    <label for="morning">morning</label>
+                    <input type="radio" id="afternoon" name="extime">
+                    <label for="afternoon">Afternoon</label>
+                    <input type="radio" id="eve" name="extime">
+                    <label for="eve">Evening</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your fav body part to work out?</legend>
+                    <input type="checkbox" id="glutes" name="body" checked>
+                    <label for="glutes">Glutes</label>
+                    <input type="checkbox" id="legs" name="body">
+                    <label for="legs">Legs</label>
+                    <input type="checkbox" id="back" name="body">
+                    <label for="back">Back</label>
+                    <input type="checkbox" id="arms" name="body">
+                    <label for="arms">Arms</label>
+                </fieldset>
+                <fieldset>
+                    <legend>How many days of the week do you workout?</legend>
+                    <input type="range" id="range" name="range" min="1" max="7">
+                </fieldset>
+                <input type="submit">
+            </form>
+        </section>
+    </body>
+</html>
